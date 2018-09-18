@@ -14,7 +14,7 @@ public class ExceptionHandler {
 			return "3";
 		} finally {
 			System.out.println("4");
-			//any return from finally block will be overriden
+			//any return from finally block will be overridden
 			//return "4";
 		}
 	}
